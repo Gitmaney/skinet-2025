@@ -26,7 +26,7 @@ public class BuggyController : BaseApiController
     }
 
     [HttpGet("internalerror")]
-    public IActionResult GetEnternalError()
+    public IActionResult GetInternalError()
     {
         throw new Exception("This is a test exception");
     }
